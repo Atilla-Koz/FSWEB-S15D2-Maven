@@ -17,20 +17,21 @@ public class Task {
         this.priority = priority;
     }
 
-    public String getProject() {
-        return project;
+
+    public String getAssignee() {
+        return assignee;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public String getAssignee() {
-        return assignee;
-    }
-
     public Priority getPriority() {
         return priority;
+    }
+
+    public String getProject() {
+        return project;
     }
 
     public Status getStatus() {
